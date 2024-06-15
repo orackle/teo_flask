@@ -3,9 +3,9 @@ a backend for my voice cloning app, made with the help of huggingface models
 
 
 - Setting up a flask backend for my react native project
-- Takes in a file as an upload
-- Leverages [WhisperSpeech](https://huggingface.co/WhisperSpeech/WhisperSpeech) TTS model
-- Returns an audio file
+- Takes in a reference audio file for upload
+- Leverages [WhisperSpeech](https://huggingface.co/WhisperSpeech/WhisperSpeech) TTS model to extract semantics
+- Returns an audio file for the sample text
 
 
 # Credits
