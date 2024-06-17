@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import os
 import torch
 from whisperspeech.pipeline import Pipeline
-from werkzeug.utils import secure_filename
+from urllib.parse import quote as url_quote
 
 app = Flask(__name__)
 
